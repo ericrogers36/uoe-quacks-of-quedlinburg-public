@@ -1,0 +1,129 @@
+|     | Policy                                                               | Black Model   |   Mean VP |   Difference (Policy - Baseline) |   Difference Std. Error |
+|----:|:---------------------------------------------------------------------|:--------------|----------:|---------------------------------:|------------------------:|
+|   0 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'G', 'P']           | never         |   42.5913 |                           2.412  |               0.0920644 |
+|   1 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'G', 'P']      | never         |   42.2131 |                           2.0338 |               0.0959609 |
+|   2 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'P']           | never         |   41.8898 |                           1.7105 |               0.0947402 |
+|   3 | Chip Prioritisation - Buy only ['O', 'BK', 'G', 'P', 'Y']            | never         |   41.8798 |                           1.7005 |               0.0944627 |
+|   4 | Chip Prioritisation - Buy only ['BK', 'BL', 'G', 'P']                | never         |   41.8506 |                           1.6713 |               0.0920218 |
+|   5 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'P']                | never         |   41.6973 |                           1.518  |               0.0883108 |
+|   6 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'G', 'P']            | never         |   41.2628 |                           1.0835 |               0.0957186 |
+|   7 | Chip Prioritisation - Buy only ['BK', 'BL', 'P']                     | never         |   41.1587 |                           0.9794 |               0.0875657 |
+|   8 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'G', 'P', 'Y']      | never         |   41.0284 |                           0.8491 |               0.0919171 |
+|   9 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R']                | never         |   41.0171 |                           0.8378 |               0.0952225 |
+|  10 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'G']           | never         |   40.8531 |                           0.6738 |               0.0976402 |
+|  11 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'P']                 | never         |   40.828  |                           0.6487 |               0.093965  |
+|  12 | Chip Prioritisation - Buy only ['O', 'BL', 'R']                      | never         |   40.7489 |                           0.5696 |               0.0988386 |
+|  13 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'P']                 | never         |   40.6167 |                           0.4374 |               0.0930162 |
+|  14 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'G', 'P', 'Y']       | never         |   40.5283 |                           0.349  |               0.093797  |
+|  15 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'G', 'P']           | never         |   40.3652 |                           0.1859 |               0.092381  |
+|  16 | Chip Prioritisation - Buy only ['BK', 'BL', 'G', 'P', 'Y']           | never         |   40.3461 |                           0.1668 |               0.0908754 |
+|  17 | Chip Prioritisation - Buy only ['BK', 'G', 'P', 'Y']                 | never         |   40.2488 |                           0.0695 |               0.0927231 |
+|  18 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'G']                | never         |   40.237  |                           0.0577 |               0.0902351 |
+|  19 | Chip Prioritisation - Buy only ['O', 'BK', 'P', 'Y']                 | never         |   40.2219 |                           0.0426 |               0.0909335 |
+|  20 | Chip Prioritisation - Buy only ['O', 'BK', 'G', 'Y']                 | never         |   40.1438 |                          -0.0355 |               0.0938681 |
+|  21 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'P']                | never         |   40.1401 |                          -0.0392 |               0.092224  |
+|  22 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'P', 'Y']           | never         |   40.0606 |                          -0.1187 |               0.0893553 |
+|  23 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'G', 'P', 'Y'] | never         |   39.954  |                          -0.2253 |               0.0944789 |
+|  24 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'G', 'P']            | never         |   39.8735 |                          -0.3058 |               0.0937215 |
+|  25 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'P', 'Y']      | never         |   39.8317 |                          -0.3476 |               0.0936645 |
+|  26 | Chip Prioritisation - Buy only ['BK', 'BL', 'P', 'Y']                | never         |   39.6801 |                          -0.4992 |               0.0896748 |
+|  27 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'G']                 | never         |   39.6319 |                          -0.5474 |               0.0957491 |
+|  28 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'P', 'Y']            | never         |   39.629  |                          -0.5503 |               0.0918988 |
+|  29 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'G', 'Y']           | never         |   39.6203 |                          -0.559  |               0.0924783 |
+|  30 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'G', 'Y']      | never         |   39.2883 |                          -0.891  |               0.0957819 |
+|  31 | Chip Prioritisation - Buy only ['BL', 'R', 'P']                      | never         |   39.2794 |                          -0.8999 |               0.0919653 |
+|  32 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'G', 'Y']            | never         |   39.1609 |                          -1.0184 |               0.0955381 |
+|  33 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'G', 'P', 'Y']       | never         |   39.0357 |                          -1.1436 |               0.0938381 |
+|  34 | Chip Prioritisation - Buy only ['BK', 'BL', 'G']                     | never         |   39.0275 |                          -1.1518 |               0.0895553 |
+|  35 | Chip Prioritisation - Buy only ['BK', 'BL', 'G', 'Y']                | never         |   38.9759 |                          -1.2034 |               0.0925114 |
+|  36 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'G']                | never         |   38.9683 |                          -1.211  |               0.0947841 |
+|  37 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'P', 'Y']            | never         |   38.9318 |                          -1.2475 |               0.0922979 |
+|  38 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'R', 'Y']           | never         |   38.8807 |                          -1.2986 |               0.0946147 |
+|  39 | Chip Prioritisation - Buy only ['O', 'BK', 'BL']                     | never         |   38.6597 |                          -1.5196 |               0.0851489 |
+|  40 | Chip Prioritisation - Buy only ['BK', 'R', 'G', 'P']                 | never         |   38.6224 |                          -1.5569 |               0.0938225 |
+|  41 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'G']                 | never         |   38.6123 |                          -1.567  |               0.0966195 |
+|  42 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'Y']                 | never         |   38.4471 |                          -1.7322 |               0.0966015 |
+|  43 | Chip Prioritisation - Buy only ['O', 'BK', 'BL', 'Y']                | never         |   38.4376 |                          -1.7417 |               0.0888337 |
+|  44 | Chip Prioritisation - Buy only ['BL', 'R', 'G', 'P']                 | never         |   38.4264 |                          -1.7529 |               0.0918676 |
+|  45 | Chip Prioritisation - Buy only ['BK', 'G', 'Y']                      | never         |   38.3796 |                          -1.7997 |               0.0943229 |
+|  46 | Chip Prioritisation - Buy only ['O', 'BK', 'R']                      | never         |   38.3652 |                          -1.8141 |               0.0931335 |
+|  47 | Chip Prioritisation - Buy only ['O', 'BK', 'R', 'Y']                 | never         |   38.3639 |                          -1.8154 |               0.0938284 |
+|  48 | Chip Prioritisation - Buy only ['O', 'BK', 'G']                      | never         |   38.3099 |                          -1.8694 |               0.0889443 |
+|  49 | Chip Prioritisation - Buy only ['BK', 'P', 'Y']                      | never         |   38.1833 |                          -1.996  |               0.0900215 |
+|  50 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'G', 'P', 'Y']      | never         |   38.1177 |                          -2.0616 |               0.0915278 |
+|  51 | Chip Prioritisation - Buy only ['BK', 'BL', 'R']                     | never         |   37.9272 |                          -2.2521 |               0.0916066 |
+|  52 | Chip Prioritisation - Buy only ['O', 'BL', 'R', 'G', 'Y']            | never         |   37.9246 |                          -2.2547 |               0.096782  |
+|  53 | Chip Prioritisation - Buy only ['O', 'BK', 'G', 'P']                 | never         |   37.9031 |                          -2.2762 |               0.0879834 |
+|  54 | Chip Prioritisation - Buy only ['O', 'R', 'G', 'P', 'Y']             | never         |   37.8598 |                          -2.3195 |               0.0911725 |
+|  55 | Chip Prioritisation - Buy only ['BK', 'R', 'G', 'P', 'Y']            | never         |   37.7717 |                          -2.4076 |               0.0924221 |
+|  56 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'P', 'Y']           | never         |   37.7664 |                          -2.4129 |               0.0900484 |
+|  57 | Chip Prioritisation - Buy only ['O', 'BL', 'G', 'P', 'Y']            | never         |   37.7484 |                          -2.4309 |               0.0875059 |
+|  58 | Chip Prioritisation - Buy only ['O', 'BK', 'Y']                      | never         |   37.6314 |                          -2.5479 |               0.0887378 |
+|  59 | Chip Prioritisation - Buy only ['O', 'R', 'G']                       | never         |   37.449  |                          -2.7303 |               0.0967006 |
+|  60 | Chip Prioritisation - Buy only ['BK', 'BL', 'Y']                     | never         |   37.422  |                          -2.7573 |               0.0884702 |
+|  61 | Chip Prioritisation - Buy only ['O', 'R', 'P', 'Y']                  | never         |   37.3971 |                          -2.7822 |               0.0903101 |
+|  62 | Chip Prioritisation - Buy only ['O', 'BL', 'P', 'Y']                 | never         |   37.3584 |                          -2.8209 |               0.0851644 |
+|  63 | Chip Prioritisation - Buy only ['BK', 'G', 'P']                      | never         |   37.1268 |                          -3.0525 |               0.0887187 |
+|  64 | Chip Prioritisation - Buy only ['BL', 'G', 'P', 'Y']                 | never         |   37.0186 |                          -3.1607 |               0.0877679 |
+|  65 | Chip Prioritisation - Buy only ['BK', 'G']                           | never         |   36.8546 |                          -3.3247 |               0.0871304 |
+|  66 | Chip Prioritisation - Buy only ['BK', 'R', 'G', 'Y']                 | never         |   36.8448 |                          -3.3345 |               0.0954921 |
+|  67 | Chip Prioritisation - Buy only ['O', 'R', 'G', 'Y']                  | never         |   36.8083 |                          -3.371  |               0.0935171 |
+|  68 | Chip Prioritisation - Buy only ['BL', 'P', 'Y']                      | never         |   36.7706 |                          -3.4087 |               0.0858824 |
+|  69 | Chip Prioritisation - Buy only ['BL', 'R']                           | never         |   36.7497 |                          -3.4296 |               0.0929568 |
+|  70 | Chip Prioritisation - Buy only ['O', 'BL', 'G']                      | never         |   36.7333 |                          -3.446  |               0.088437  |
+|  71 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'G', 'Y']           | never         |   36.7192 |                          -3.4601 |               0.0909845 |
+|  72 | Chip Prioritisation - Buy only ['BL', 'R', 'G', 'P', 'Y']            | never         |   36.6915 |                          -3.4878 |               0.0889348 |
+|  73 | Chip Prioritisation - Buy only ['BK', 'BL']                          | never         |   36.6618 |                          -3.5175 |               0.0817127 |
+|  74 | Chip Prioritisation - Buy only ['BK', 'R', 'P', 'Y']                 | never         |   36.6467 |                          -3.5326 |               0.0905921 |
+|  75 | Chip Prioritisation - Buy only ['O', 'R', 'Y']                       | never         |   36.6338 |                          -3.5455 |               0.0949055 |
+|  76 | Chip Prioritisation - Buy only ['BL', 'R', 'P', 'Y']                 | never         |   36.5981 |                          -3.5812 |               0.0885007 |
+|  77 | Chip Prioritisation - Buy only ['BL', 'R', 'G']                      | never         |   36.4748 |                          -3.7045 |               0.0949228 |
+|  78 | Chip Prioritisation - Buy only ['BK', 'R', 'P']                      | never         |   36.4225 |                          -3.7568 |               0.0882251 |
+|  79 | Chip Prioritisation - Buy only ['BK', 'R', 'G']                      | never         |   36.419  |                          -3.7603 |               0.0939772 |
+|  80 | Chip Prioritisation - Buy only ['O', 'BL', 'G', 'Y']                 | never         |   36.221  |                          -3.9583 |               0.0888651 |
+|  81 | Chip Prioritisation - Buy only ['O', 'BK', 'P']                      | never         |   36.1372 |                          -4.0421 |               0.0842837 |
+|  82 | Chip Prioritisation - Buy only ['BK', 'BL', 'R', 'Y']                | never         |   36.1248 |                          -4.0545 |               0.0908868 |
+|  83 | Chip Prioritisation - Buy only ['O', 'R']                            | never         |   35.9976 |                          -4.1817 |               0.0967664 |
+|  84 | Chip Prioritisation - Buy only ['BK', 'Y']                           | never         |   35.9336 |                          -4.2457 |               0.0870137 |
+|  85 | Chip Prioritisation - Buy only ['BL', 'G']                           | never         |   35.5925 |                          -4.5868 |               0.0882017 |
+|  86 | Chip Prioritisation - Buy only ['O', 'BL', 'Y']                      | never         |   35.2362 |                          -4.9431 |               0.0856165 |
+|  87 | Chip Prioritisation - Buy only ['BL', 'R', 'G', 'Y']                 | never         |   35.1935 |                          -4.9858 |               0.0910992 |
+|  88 | Chip Prioritisation - Buy only ['G']                                 | never         |   34.9624 |                          -5.2169 |               0.092694  |
+|  89 | Chip Prioritisation - Buy only ['R', 'G', 'P', 'Y']                  | never         |   34.9505 |                          -5.2288 |               0.089206  |
+|  90 | Chip Prioritisation - Buy only ['BL', 'R', 'Y']                      | never         |   34.9194 |                          -5.2599 |               0.0910632 |
+|  91 | Chip Prioritisation - Buy only ['BL', 'G', 'Y']                      | never         |   34.8729 |                          -5.3064 |               0.0898553 |
+|  92 | Chip Prioritisation - Buy only ['BK', 'R', 'Y']                      | never         |   34.7925 |                          -5.3868 |               0.0916787 |
+|  93 | Chip Prioritisation - Buy only ['O', 'BL']                           | never         |   34.3891 |                          -5.7902 |               0.0796178 |
+|  94 | Chip Prioritisation - Buy only ['BK', 'P']                           | never         |   34.2747 |                          -5.9046 |               0.0817022 |
+|  95 | Chip Prioritisation - Buy only ['O', 'BK']                           | never         |   34.0454 |                          -6.1339 |               0.0830532 |
+|  96 | Chip Prioritisation - Buy only ['BL']                                | never         |   34.0383 |                          -6.141  |               0.0780685 |
+|  97 | Chip Prioritisation - Buy only ['BL', 'P']                           | never         |   33.974  |                          -6.2053 |               0.0816413 |
+|  98 | Chip Prioritisation - Buy only ['R', 'P', 'Y']                       | never         |   33.939  |                          -6.2403 |               0.0864645 |
+|  99 | Chip Prioritisation - Buy only ['O', 'BL', 'P']                      | never         |   33.8305 |                          -6.3488 |               0.0824908 |
+| 100 | Chip Prioritisation - Buy only ['R', 'G']                            | never         |   33.7966 |                          -6.3827 |               0.0930992 |
+| 101 | Chip Prioritisation - Buy only ['R', 'G', 'Y']                       | never         |   33.7498 |                          -6.4295 |               0.0927419 |
+| 102 | Chip Prioritisation - Buy only ['O', 'BL', 'G', 'P']                 | never         |   33.52   |                          -6.6593 |               0.0840067 |
+| 103 | Chip Prioritisation - Buy only ['BK', 'R']                           | never         |   33.3893 |                          -6.79   |               0.0863408 |
+| 104 | Chip Prioritisation - Buy only ['BL', 'Y']                           | never         |   33.2282 |                          -6.9511 |               0.084438  |
+| 105 | Chip Prioritisation - Buy only ['BL', 'G', 'P']                      | never         |   33.0697 |                          -7.1096 |               0.0848618 |
+| 106 | Chip Prioritisation - Buy only ['O', 'G']                            | never         |   33.0096 |                          -7.1697 |               0.0871946 |
+| 107 | Chip Prioritisation - Buy only ['O', 'R', 'P']                       | never         |   32.7266 |                          -7.4527 |               0.0868572 |
+| 108 | Chip Prioritisation - Buy only ['O', 'R', 'G', 'P']                  | never         |   32.7034 |                          -7.4759 |               0.0871431 |
+| 109 | Chip Prioritisation - Buy only ['O', 'G', 'P', 'Y']                  | never         |   32.4504 |                          -7.7289 |               0.0836921 |
+| 110 | Chip Prioritisation - Buy only ['R', 'Y']                            | never         |   31.977  |                          -8.2023 |               0.0887083 |
+| 111 | Chip Prioritisation - Buy only ['R']                                 | never         |   31.6416 |                          -8.5377 |               0.090747  |
+| 112 | Chip Prioritisation - Buy only ['O', 'P', 'Y']                       | never         |   31.6216 |                          -8.5577 |               0.0813495 |
+| 113 | Chip Prioritisation - Buy only ['O', 'G', 'Y']                       | never         |   31.1486 |                          -9.0307 |               0.0851971 |
+| 114 | Chip Prioritisation - Buy only ['BK']                                | never         |   30.9837 |                          -9.1956 |               0.0783446 |
+| 115 | Chip Prioritisation - Buy only ['G', 'P', 'Y']                       | never         |   30.8265 |                          -9.3528 |               0.0825513 |
+| 116 | Chip Prioritisation - Buy only ['R', 'G', 'P']                       | never         |   30.7453 |                          -9.434  |               0.086344  |
+| 117 | Chip Prioritisation - Buy only ['R', 'P']                            | never         |   30.0451 |                         -10.1342 |               0.0829592 |
+| 118 | Chip Prioritisation - Buy only ['P', 'Y']                            | never         |   29.8737 |                         -10.3056 |               0.0807522 |
+| 119 | Chip Prioritisation - Buy only ['G', 'Y']                            | never         |   29.7237 |                         -10.4556 |               0.0850376 |
+| 120 | Chip Prioritisation - Buy only ['O', 'Y']                            | never         |   29.2649 |                         -10.9144 |               0.0815277 |
+| 121 | Chip Prioritisation - Buy only ['O', 'G', 'P']                       | never         |   29.1077 |                         -11.0716 |               0.0796207 |
+| 122 | Chip Prioritisation - Buy only ['O', 'P']                            | never         |   28.8164 |                         -11.3629 |               0.0785917 |
+| 123 | Chip Prioritisation - Buy only ['G', 'P']                            | never         |   28.6445 |                         -11.5348 |               0.0802261 |
+| 124 | Chip Prioritisation - Buy only ['Y']                                 | never         |   28.3935 |                         -11.7858 |               0.0826133 |
+| 125 | Chip Prioritisation - Buy only ['P']                                 | never         |   28.3602 |                         -11.8191 |               0.078287  |
+| 126 | Chip Prioritisation - Buy only ['O']                                 | never         |   26.4728 |                         -13.7065 |               0.0772125 |
