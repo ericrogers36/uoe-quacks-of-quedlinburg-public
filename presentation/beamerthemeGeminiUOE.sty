@@ -1,0 +1,87 @@
+\ProvidesPackage{beamerthemeGeminiUOE}
+
+\RequirePackage{ragged2e}
+
+% Load sub-themes
+\usecolortheme{GeminiUOE}
+\usefonttheme{GeminiUOE}
+
+% Remove nav symbols
+\setbeamertemplate{navigation symbols}{}
+
+\addtobeamertemplate{frametitle}{}{\usebeamercolor[fg]{frametitle}}
+
+% ====================
+% Itemize style
+% ====================
+
+\setbeamertemplate{itemize item}{\raise0.3ex \hbox{\vrule width 0.5ex height 0.5ex}}
+
+% ====================
+% Headline (FIXED FOR SLIDES)
+% ====================
+
+\setbeamertemplate{headline}
+{
+
+}
+
+% ====================
+% Footline
+% ====================
+
+\setbeamertemplate{footline}{
+  \leavevmode
+  \hbox{
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2ex,dp=1ex]{headline}
+      \hfill
+      \insertframenumber{} / \inserttotalframenumber
+      \hspace{1em}
+    \end{beamercolorbox}
+  }
+}
+
+% ====================
+% Blocks (CLEANED)
+% ====================
+
+% ====================
+% Custom heading command
+% ====================
+
+\newcommand\heading[1]
+{
+  \par\bigskip
+  {\usebeamerfont{heading}\usebeamercolor[fg]{heading}#1}
+  \par\smallskip
+}
+
+% ====================
+% Title Page
+% ====================
+
+\setbeamertemplate{title page}
+{
+    \begin{center}
+        \vspace{2em}
+        {\usebeamerfont{title}\usebeamercolor[fg]{frametitle}\inserttitle\par}
+
+        \vspace{1.5em}
+
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{frametitle}\insertsubtitle\par}
+
+        \vspace{2em}
+
+        {\usebeamerfont{author}\insertauthor\par}
+        {\usebeamerfont{institute}\insertinstitute\par}
+
+        \vspace{1em}
+        
+        {\usebeamerfont{date}\insertdate\par}
+        
+    \end{center}
+
+
+
+
+}

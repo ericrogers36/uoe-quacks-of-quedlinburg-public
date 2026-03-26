@@ -1,0 +1,72 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{abbreviations}
+
+% SHORTCUTS
+
+% LETTERS
+
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calB}{\mathcal{B}}
+\newcommand{\calF}{\mathcal{F}}
+\newcommand{\calN}{\mathcal{N}}
+\newcommand{\calP}{\mathcal{P}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\calZ}{\mathcal{Z}}
+
+
+% PROBABILITY AND STATS
+
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Cor}{\operatorname{Cor}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\ind}{\mathbbm{1}}
+
+\newcommand{\iid}{\overset{\text{iid}}{\sim}}
+\newcommand{\SE}{\operatorname{S.E.}}
+\newcommand{\SEhat}{\widehat{\operatorname{S.E.}}}
+
+% CALCULUS
+
+\newcommand{\curl}{\operatorname{curl}\,}
+\renewcommand{\div}{\operatorname{div}\,}
+\newcommand{\cosec}{\operatorname{cosec}\,}
+
+\newcommand*{\pd}[3][]{\ensuremath{\frac{\partial^{#1} #2}{\partial #3}}}
+\newcommand*{\dpd}[3][]{\ensuremath{\dfrac{\partial^{#1} #2}{\partial #3}}}
+
+\newcommand{\ul}[1]{\underline{#1}}
+\usepackage{parskip}
+\usepackage{tcolorbox}
+
+\newtcolorbox{mybasecolorbox}[1][]{%
+  colback=gray!25, colframe=gray!25,
+  coltitle=black, fonttitle=\bfseries,
+  sharp corners,
+  width=(\textwidth),
+  title=#1}
+
+\newenvironment{mytitlebox}[1][]{%
+  \centering
+  \mybasecolorbox[#1]
+}{%
+  \endmybasecolorbox
+}
+
+\newenvironment{myinlinebox}[1][]{%
+  \mytitlebox
+  {\upshape\bfseries #1}%
+}{%
+  \endmybasecolorbox
+}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1.5pt] (char) {#1};}}

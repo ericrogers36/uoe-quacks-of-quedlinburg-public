@@ -1,0 +1,130 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{GeminiUOE}
+
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{bbm}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{enumerate}
+\usepackage{abbreviations}
+%\usepackage{enumitem}
+\usepackage{cprotect}
+\usepackage{yhmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[short title]{How to Win the Board Game 
+\\``Quacks of Quedlinburg''} % The short title appears at the bottom of every slide, the full title is only on the title page
+\subtitle{Year 4 Project}
+
+\author[ER, JB, SL] {Eric Rogers, Joseph Brudenell, Sam Lee}
+
+\institute[UoE] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+    The University of Edinburgh % Your institution for the title page
+}
+\date{Presentation Date TBC, Presentation Room TBC} % Date, can be changed to a custom date
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+  % Print the title page as the first slide
+  \titlepage
+\end{frame}
+
+%\begin{frame}{Overview}
+  % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+%  \tableofcontents
+%\end{frame}
+
+%------------------------------------------------
+%\section{First Section}
+%------------------------------------------------
+
+\begin{frame}{Introduction} % joseph
+ % what we're about to do
+\end{frame}
+
+\begin{frame}{The Rules} %  sam 
+
+\end{frame}
+
+\begin{frame}{Modelling} % eric
+ % assumptions
+ % what a policy is, etc
+ % opp modelling
+ % monte carlo, estimator, python
+ % lil bit of mafs
+\begin{itemize}
+    \item Assumptions\pause
+    \item Policies - 
+    \[
+        \pi:\calS\times\NN^2\to\calA_\pi
+    \]
+    \pause    
+    \vspace*{-0.9cm}
+    \begin{gather*}
+        \Downarrow\\
+         \boldsymbol{\pi} = (\pi_{\mathrm{draw}}, \pi_{\mathrm{bust}}, \pi_{\mathrm{buy}}, \pi_{\mathrm{ruby}}, \pi_{\mathrm{flask}})
+    \end{gather*}
+    \pause
+    \item Estimation - 
+    \[
+        \widehat{V}_n(\boldsymbol{\pi}\,|\,M)=\frac{1}{n}\sum_{i=1}^n X_i^{(\boldsymbol{\pi}, M)},\qquad X_1^{\boldsymbol{\pi}, M},\ldots,X_n^{\boldsymbol{\pi},M}\,\,\text{iid}
+    \]
+    \pause
+    \[
+    M:S_t\to\NN^2,\qquad M(S_t)=\widehat{B}_t^{\mathrm{opps}}
+    \]
+    \item Monte Carlo Simulation - \texttt{python}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Strategy} % joseph
+
+\end{frame}
+
+\begin{frame}{Testing/Results} % sam
+
+\end{frame}
+
+
+\begin{frame}{Conclusion} % eric
+ % what optimal policy in what circumstance - means
+ % additional useful findings
+ % few bits of further scope
+\end{frame}
+
+%------------------------------------------------
+
+\begingroup
+\setbeamertemplate{footline}{} % remove footline
+\begin{frame}
+  \Huge{\centerline{Questions}}
+\end{frame}
+\endgroup
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

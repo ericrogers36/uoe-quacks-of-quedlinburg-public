@@ -1,0 +1,26 @@
+\ProvidesPackage{beamerfontthemeGeminiUOE}
+
+\RequirePackage{fontspec}
+
+\newfontfamily\Raleway[Ligatures=TeX]{Raleway}
+\newfontfamily\Lato[Ligatures=TeX]{Lato}
+
+\usefonttheme{professionalfonts}
+
+\setsansfont{Lato}[
+  UprightFont=*-Light,
+  ItalicFont=*-LightItalic,
+  BoldFont=*-Regular,
+  BoldItalicFont=*-Italic
+]
+
+\setbeamerfont{title}{series=\bfseries, size=\huge}
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{headline}{family=\Raleway, size=\Large}
+\setbeamerfont{headline title}{size=\Large,series=\bfseries}
+\setbeamerfont{headline author}{size=\small}
+
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{block title}{family=\Raleway,series=\bfseries}
+\setbeamerfont{heading}{family=\Lato,series=\bfseries}
+\setbeamerfont{footline}{family=\Raleway,size=\tiny}
